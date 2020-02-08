@@ -5,10 +5,57 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-.header_img {
-  height: 20rem;
-  width: auto; }
+img {
+  width: 100%;
+  height: auto; }
+
+.jumbotron {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 0; }
 
 .intro {
-  height: 80vh; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15rem 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.solution {
+  margin-top: 10rem; }
+
+.how {
+  margin: 10rem 0; }
+
+.step {
+  margin: 5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 /*# sourceMappingURL=master.css.map */
