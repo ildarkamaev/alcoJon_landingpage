@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  -ms-grid-rows: 3fr;
+      grid-template-rows: 3fr;
+      grid-template-areas: 'aside main', 'aside main',  'aside footer';
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover; }
+
+aside {
+  background: #50514f;
+  opacity: .95;
+  height: 100vh;
+  max-width: 40vw;
+  padding: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+header h1, header h2, header .contact p, .contact header p {
+  font-family: "Montserrat", sans-serif;
+  color: #fdfff7;
+  font-size: 3rem;
+  line-height: 1.5; }
+
+header h2, header .contact p, .contact header p {
+  font-weight: 400;
+  font-size: 1.2rem; }
+
+.contact {
+  margin-top: 2rem; }
+  .contact h2, .contact p {
+    font-family: "Montserrat", sans-serif;
+    color: #fdfff7;
+    font-size: 1.4rem;
+    line-height: 1.5; }
+  .contact p {
+    font-size: 1rem;
+    margin: 1rem 0rem; }
+  .contact label {
+    font-family: "Montserrat", sans-serif;
+    color: #fdfff7; }
+  .contact .email_input {
+    padding: .8rem;
+    margin-top: .4rem;
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    border: none; }
+  .contact input[type="submit"] {
+    all: unset;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background: #1792a5;
+    font-family: "Montserrat", sans-serif;
+    color: #fdfff7;
+    -webkit-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s; }
+    .contact input[type="submit"]:hover {
+      background: #137a8a; }
+
+footer {
+  -ms-flex-item-align: bottom;
+      -ms-grid-row-align: bottom;
+      align-self: bottom; }
+/*# sourceMappingURL=master.css.map */
