@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <link rel="stylesheet" href="css/master.css"/>
-    <script src="https://kit.fontawesome.com/b639b9baf8.js"></script>
-    <title> AlcoJon Homepage</title>
-  </head>
-  <body>
-        <aside class="aside">
-            <header class="header">
-                <h1 class="header__title">AlcoJon </h1>
-                <h2 class="header__subtitle">AlcoJon is a prototype being made during Garage48 Arts&Robots 2020 Makeathon</h2>
-            </header>
-            <!-- <section class="countdown">
-                <h2 class="countdown__header">Time left until end of hackathon</h2>
-            </section> -->
-            <section class="contact">
-                <h2 class="contact__header">Subscribe to newsletter</h2>
-                <p>To be up to date with our progress, subscribe to our newsletter:</p>
-                <form action="POST" data-netlify="true">
-                    <label for="email">Your e-mail address:</label>
-                    <br>
-                    <input class="email_input" id="email" type="email" placeholder="Your e-mail here"> 
-                    <input type="submit" value ="subscribe">
-                </form>
-            </section>
-            
-        </aside>
-        <main class="main">
-            <!-- empty for now -->
-        </main>
-        <!-- <footer class="footer">
-            <p>Made during G48 Arts&Robots 2020</p>
-        </footer> -->
-    <script src="app.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/b639b9baf8.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/master.css">
+  <title> AlcoJon homepage</title>
+</head>
+
+<body>
+  <div class="row">
+      <div class="col-md-4 sidebar">
+          <h1>AlcoJon</h1>
+          <h2>AlcoJon is a prototype being made during Garage48 Arts&Robots 2020 Makeathon</h2>
+          <h2>Subscribe to our newsletter</h2>
+          <p>To be up to date with our progress, subscribe to our newsletter:</p>
+          <form action="POST" class="form-group">
+              <div class="form-row">
+                  <div class="col col-md-8 input-group">
+                      <div class="input-group-append">
+                          <span class="input-group-text">@</span>
+                      </div>
+                      <input type="email" id="email" class="form-control" placeholder="Your e-mail">
+                      
+                  </div>
+              </div>
+          </form>
+      </div>
+      <div class="col-md-8 main">Main</div>
+  </div>  
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>

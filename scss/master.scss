@@ -12,92 +12,96 @@ $primary: #1792a5;
 $secondary: #ffd534;
 $header: 'Montserrat', sans-serif;
 
-
-body{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 3fr;
-    grid-template-areas: 
-        'aside main',
-        'aside main', 
-        'aside footer';
-
-    background: url(../img/bg.jpg) no-repeat center center fixed; 
-    background-size: cover;
+.sidebar{
+    height: 100vh;
+    background: $black;
 }
 
-// main{
+// body{
+//     display: grid;
+//     grid-template-columns: 1fr 2fr;
+//     grid-template-rows: 3fr;
+//     grid-template-areas: 
+//         'aside main',
+//         'aside main', 
+//         'aside footer';
+
+//     background: url(../img/bg.jpg) no-repeat center center fixed; 
+//     background-size: cover;
+// }
+
+// // main{
+
+// // }
+// aside{
+//     background: $black;
+//     opacity: .95;
+//     height: 100vh;
+//     max-width: 40vw;
+//     padding: 4rem;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+// }
+
+
+
+// header h1{
+//     font-family: $header;
+//     color: $white;
+//     font-size: 3rem;
+//     line-height: 1.5;
 
 // }
-aside{
-    background: $black;
-    opacity: .95;
-    height: 100vh;
-    max-width: 40vw;
-    padding: 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-
-
-header h1{
-    font-family: $header;
-    color: $white;
-    font-size: 3rem;
-    line-height: 1.5;
-
-}
-
-header h2{
-    @extend h1;
-    font-weight: 400;
-    font-size: 1.2rem;
+// header h2{
+//     @extend h1;
+//     font-weight: 400;
+//     font-size: 1.2rem;
     
-}
+// }
 
-.contact{
-    margin-top: 2rem;
-    h2{
-        font-family: $header;
-        color: $white;
-        font-size: 1.4rem;
-        line-height: 1.5;
-    }
-    p{
-        @extend h2;
-        font-size: 1rem;
-        margin: 1rem 0rem;
-    }
-    label{
-        font-family: $header;
-        color: $white;
-    }
-    .email_input{
-        padding: .8rem;
-        margin-top: .4rem;
-        font-size: 1.1rem;
-        font-family: $header;
-        width: 100%;
-        border: none;
-    }
-    input[type="submit"]{
-        all: unset;
-        padding: 1rem 0;
-        width: 100%;
-        text-align: center;
-        text-transform: uppercase;
-        background: $primary;
-        font-family: $header;
-        color: $white;
-        transition: all ease-in-out .3s;
-        &:hover{
-            background: darken($primary, 6);
-        }
-    }
-}
+// .contact{
+//     margin-top: 2rem;
+//     h2{
+//         font-family: $header;
+//         color: $white;
+//         font-size: 1.4rem;
+//         line-height: 1.5;
+//     }
+//     p{
+//         @extend h2;
+//         font-size: 1rem;
+//         margin: 1rem 0rem;
+//     }
+//     label{
+//         font-family: $header;
+//         color: $white;
+//     }
+//     .email_input{
+//         padding: .8rem;
+//         margin-top: .4rem;
+//         font-size: 1.1rem;
+//         font-family: $header;
+//         width: 100%;
+//         border: none;
+//     }
+//     input[type="submit"]{
+//         all: unset;
+//         padding: 1rem 0;
+//         width: 100%;
+//         text-align: center;
+//         text-transform: uppercase;
+//         background: $primary;
+//         font-family: $header;
+//         color: $white;
+//         transition: all ease-in-out .3s;
+//         &:hover{
+//             background: darken($primary, 6);
+//         }
+//     }
+// }
 
-footer{
-    align-self: bottom;
-}
+// footer{
+//     align-self: bottom;
+// }
