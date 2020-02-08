@@ -11,6 +11,7 @@
       integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="css/master.css" />
     <title>AlcoJon homepage</title>
   </head>
@@ -48,17 +49,23 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 align-self-center">
-            <h1 class="display-3 font-weight-bold">AlcoJon</h1>
+            <div class="jumbo-left">
+              <h1 class="display-3 font-weight-bold">AlcoJon</h1>
             <h2 class="lead header_text text-muted">
               AlcoJon is a prototype being made during Garage48 Arts&Robots 2020 Makeathon
             </h2>
+            </div>
+            
           </div>
           <div class="col-md-6">
-            <img
+            <div class="jumbo-right">
+              <img
               src="img/header_img.svg"
               alt="man with glass of wine illustration"
               class="header_img"
             />
+            </div>
+            
           </div>
         </div>
       </div>
@@ -68,23 +75,23 @@
         <div class="intro">
           <div class="row ">
             <div class="col-sm-12 col-md-12">
-              <h2 class="mb-4">What is the problem?</h2>
+              <h2 class="mb-4 intro-header">What is the problem?</h2>
               <div class="row mt-4">
-                  <div class="col-md-4">
+                  <div class="col-md-4 intro-section1">
                       <h3>Addiction</h3>
                       <p class="text-justify">
                       Addiction is a disorder of the brain's reward system characterized by compulsive engagement in rewarding <span id="more1" class="collapse">stimuli despite harmful consequences. It develops over time from chronically high levels of exposure to an addictive stimulus.</span> 
                       </p>
                       <button class="btn btn-outline-secondary" data-toggle="collapse" data-target="#more1">Read more</button>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-4 intro-section2">
                       <h3>Hidden risks</h3>
                       <p class="text-justify">
                       In social life addicts are associated with something filthy, therefore many diseases stay hidden for a <span id="more2" class="collapse">long time and that requires more potential time for the recovery process. So instead of being reactive to your health, we promote proactive approach for decreasing self-harm by being aware how different substances affect your body.</span> 
                       </p>
                       <button class="btn btn-outline-secondary" data-toggle="collapse" data-target="#more2">Read more</button>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-4 intro-section3">
                       <h3>Oldest drug</h3>
                       <p class="text-justify">
                       Alcohol is one of the oldest and most common psychoactive drugs with existing evidence on the <span id="more3" class="collapse"> negative impact on the cognitive performance and nervous system causing heart disease. Its regular use can become a substitute for solving personal and interpersonal problems. Permanent substance abuse causes addiction resulting in mental or physical health problems.</span> 
@@ -99,19 +106,19 @@
         <div class="solution" id="about">
             <div class="row my-4">
                 <div class="col-sm-12 col-md-10 mb-4">
-                    <h2 class="my-4">What is AlcoJon?</h2>
-                    <p class="text-justify">With our interactive know-how kit, we promote smart and conscious alcohol consumption with contextual indicators for a better understanding of alcohol influence on a body. The idea is that if you start identifying your drinking patterns then you can master, minimize or tolerate triggers of stress and conflict by effective coping strategies.</p>
+                    <h2 class="my-4 solution-heading">What is AlcoJon?</h2>
+                    <p class="text-justify solution-text">With our interactive know-how kit, we promote smart and conscious alcohol consumption with contextual indicators for a better understanding of alcohol influence on a body. The idea is that if you start identifying your drinking patterns then you can master, minimize or tolerate triggers of stress and conflict by effective coping strategies.</p>
 
-                    <p class="text-justify">Publicly accessible real-time intoxication tests help to understand the alcohol influence on a human body in a specific moment based on a breath sample. Once your blood alcohol content (BAC) is estimated, then you can see how alcohol affects your body. Additionally, the test acts as a prevention tool for obtaining basic information about estimations on the body recovery steps.</p>
+                    <p class="text-justify solution-text">Publicly accessible real-time intoxication tests help to understand the alcohol influence on a human body in a specific moment based on a breath sample. Once your blood alcohol content (BAC) is estimated, then you can see how alcohol affects your body. Additionally, the test acts as a prevention tool for obtaining basic information about estimations on the body recovery steps.</p>
 
-                    <p class="text-justify">Through this voluntary check we shift the focus of a human brain’s rewarding system into a positive flow of self-awareness or “treat yourself good” attitude. With a software add-on (eg Native Web App) a person can track total consumption patterns and based on this analysis set up harm reduction goals. Fulfillment of these goals can be exchanged for a discount voucher of an alternative type of entertainment.</p>
+                    <p class="text-justify solution-text">Through this voluntary check we shift the focus of a human brain’s rewarding system into a positive flow of self-awareness or “treat yourself good” attitude. With a software add-on (eg Native Web App) a person can track total consumption patterns and based on this analysis set up harm reduction goals. Fulfillment of these goals can be exchanged for a discount voucher of an alternative type of entertainment.</p>
                 </div>
             </div>
             <div class="row how" id="how">
-                <div class="col-sm-12 col-md-8"><h2>How AlcoJon works?</h2>
-                <p class="lead ">The Alcojon has a kit and a seperate mobile app:</p></div>
+                <div class="col-sm-12 col-md-8"><h2 class="how-heading">How AlcoJon works?</h2>
+                <p class="lead how-lead">The Alcojon has a kit and a seperate mobile app:</p></div>
             </div>
-            <div class="row">
+            <div class="row tabs">
                 <div class="col-sm-12">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item col-md-6">
@@ -176,8 +183,8 @@ concentration (BAC). A display shows your estimated BAC on a display</p>
                 
             </div>
   </div>
-  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-      <div class="row step">
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="row step">
                 
                 <div class="col-sm-12 col-md-6">
                     <h3>Step 1: You download the app to your phone (QR/online link)</h3>
@@ -231,10 +238,10 @@ concentration (BAC). A display shows your estimated BAC on a display</p>
         <div class="userbase">
             <div class="row">
                 <div class="col-sm-12 col-md-10">
-                    <h2 class="my-4">Who is it for?</h2>
-                    <p class="text-justify">Everyone is exposed to developing an addiction as none of us is protected from trauma and/or emotional avoidance of specific situations. But the recovery process varies from person to person as we have different levels of positive coping mechanism strength. So clear analysis of personal triggers and use of harm reduction tools can contribute to strengthening the coping mechanism for an early recovery which becomes a long-term success with time and dedication. </p>
-<p>As this product relates to alcohol consumption habits, then we need to consider that at different ages alcohol perception varies:</p>
-                    <ol>
+                    <h2 class="my-4 who-heading">Who is it for?</h2>
+                    <p class="text-justify who-text">Everyone is exposed to developing an addiction as none of us is protected from trauma and/or emotional avoidance of specific situations. But the recovery process varies from person to person as we have different levels of positive coping mechanism strength. So clear analysis of personal triggers and use of harm reduction tools can contribute to strengthening the coping mechanism for an early recovery which becomes a long-term success with time and dedication. </p>
+<p class="who-text">As this product relates to alcohol consumption habits, then we need to consider that at different ages alcohol perception varies:</p>
+                    <ol class="who-list">
                         <li>Youngsters:
                             <ul>
                                 <li>visualization of harm caused to the brain, heart and liver</li>
@@ -272,9 +279,9 @@ entertainment</li>
         </div>
         <div class="faq">
             <div class="row">
-                <div class="col-sm-12"><h2 class="my-4">Frequently asked questions</h2></div>
+                <div class="col-sm-12"><h2 class="my-4 faq-heading">Frequently asked questions</h2></div>
             </div>
-            <div class="row">
+            <div class="row accordion1">
                 <div class="accordion">
           <div class="card">
           <div class="card-header">
@@ -363,10 +370,10 @@ entertainment</li>
             </div>
             </div>
         <section class="contact mt-4" id="contact">
-          <h2>Contact us</h2>
+          <h2 class="contact-heading">Contact us</h2>
           <div class="row">
             <div class="col-md-10">
-              <form action="POST" class="
+              <form action="POST" class=" contact-form
           form-group">
               <div class="form-row">
                 <div class="col">
@@ -390,7 +397,7 @@ entertainment</li>
 
       </div>
     </section>
-    <footer>
+    <footer class="footer">
         <div class="container">
             <p>Made during G48 Arts&Robots 2020</p>
         </div>
