@@ -26,7 +26,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 10rem 0;
+  margin: 15rem 0;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -38,7 +38,7 @@ img {
       -ms-flex-pack: center;
           justify-content: center; }
   .intro h3 {
-    margin-top: 2rem; }
+    margin-bottom: 4rem; }
 
 .solution {
   margin-top: 10rem; }
