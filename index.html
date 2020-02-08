@@ -441,6 +441,24 @@ entertainment</li>
           duration: 2000
         });
       });
+
+      // scrollspy
+    $('body').scrollspy({target:'#main-nav'});
+    // smoothscroll
+    $('#main-nav a').on('click', function(e){
+      if(this.hash !== ''){
+        e.preventDefault();
+        // store hash
+        const hash = this.hash;
+        // animate smoothscroll
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function(){
+          // hash to url
+          window.location.hash = hash;
+        })
+      }
+    })
     </script>
     <script src="app.js"></script>
   </body>
