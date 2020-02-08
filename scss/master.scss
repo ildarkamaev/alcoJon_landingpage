@@ -32,29 +32,17 @@ img{
 }
 
 .intro{
-<<<<<<< HEAD
-    
-    // display: flex;
-    // margin: 30rem 0;
-    // flex-direction: row;
-    // align-items: center;
-    // justify-content: center;
-}
-
-.intro_sections{
-    margin-top: 10rem;
-}
-
-=======
     // height: 80vh;
     display: flex;
     margin: 15rem 0;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    h3{
+        margin-bottom: 4rem;
+    }
 }
 
->>>>>>> parent of b651829... updated problem section
 .solution{
     margin-top: 10rem;
 }
