@@ -1,47 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/b639b9baf8.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/master.css" />
+    <title>AlcoJon homepage</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://kit.fontawesome.com/b639b9baf8.js"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="css/master.css">
-  <title> AlcoJon homepage</title>
-</head>
-
-<body>
-  <div class="row">
-      <div class="col-md-4 sidebar">
-          <h1>AlcoJon</h1>
-          <h2>AlcoJon is a prototype being made during Garage48 Arts&Robots 2020 Makeathon</h2>
-          <h2>Subscribe to our newsletter</h2>
-          <p>To be up to date with our progress, subscribe to our newsletter:</p>
-          <form action="POST" class="form-group">
-              <div class="form-row">
-                  <div class="col col-md-8 input-group">
-                      <div class="input-group-append">
-                          <span class="input-group-text">@</span>
-                      </div>
-                      <input type="email" id="email" class="form-control" placeholder="Your e-mail">
-                      
-                  </div>
-              </div>
-          </form>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light ">
+      <!-- container toob elemendi lehe keskele poole ning annab külgedelt margini -->
+      <div class="container">
+        <a class="navbar-brand" href="#">AlcoJon</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">How this works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="col-md-8 main">Main</div>
-  </div>  
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>AlcoJon</h1>
+            <h2>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Eligendi, praesentium porro inventore nihil illum quaerat aliquid
+              ut saepe ipsum iste!
+            </h2>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="img/header_img.svg"
+              alt="man with glass of wine illustration"
+              class="header_img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="main">
+      <div class="container">
+        <div class="intro">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2>What is the problem?</h2>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                eos saepe sint commodi quo delectus doloribus. Obcaecati
+                delectus soluta magnam?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                voluptas pariatur accusantium, saepe temporibus fugit eius
+                aliquam perspiciatis ipsam cumque modi deserunt praesentium id
+                eos molestias facere iure fugiat enim cupiditate et deleniti
+                itaque? Error cupiditate excepturi quae modi earum.
+              </p>
 
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores molestias quasi ratione. Ab nobis laudantium iusto
+                aliquam sint temporibus maiores alias assumenda illum quia. Ad
+                magnam amet eveniet veniam recusandae, ducimus blanditiis
+                consectetur et, iusto omnis commodi explicabo! Neque, ipsam!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="solution">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>What is AlcoJon?</h2>
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, ullam optio iure, et facere totam eaque quas pariatur qui minus vel saepe sapiente tenetur non ipsum. Voluptatum iste sed voluptates!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, magnam veritatis eum sit veniam atque et earum quisquam? Eaque ab fuga ratione voluptatibus natus harum alias fugit consequuntur quae ipsam numquam esse, consequatur velit odio quibusdam animi voluptatem deleniti nemo.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Step 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, quo mollitia temporibus dolorum architecto debitis eligendi optio beatae dicta repudiandae amet repellendus. Vero delectus alias mollitia illum ut laboriosam voluptas similique reprehenderit natus suscipit, expedita, consectetur quaerat? Dolor, accusantium illo.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://picsum.photos/500/250" alt="random image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://picsum.photos/500/250" alt="random image">
+                </div>
+                <div class="col-md-6">
+                    <h3>Step 2</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, quo mollitia temporibus dolorum architecto debitis eligendi optio beatae dicta repudiandae amet repellendus. Vero delectus alias mollitia illum ut laboriosam voluptas similique reprehenderit natus suscipit, expedita, consectetur quaerat? Dolor, accusantium illo.</p>
+                </div>
+                
+            </div>
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <h3>Step 3</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, quo mollitia temporibus dolorum architecto debitis eligendi optio beatae dicta repudiandae amet repellendus. Vero delectus alias mollitia illum ut laboriosam voluptas similique reprehenderit natus suscipit, expedita, consectetur quaerat? Dolor, accusantium illo.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://picsum.photos/500/250" alt="random image">
+                </div>
+                
+            </div>
+            <div class="col-sm-12">
+                <h2>Why this works?</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente deleniti dicta voluptatem nesciunt delectus impedit cum quibusdam quos, magni blanditiis?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo consequuntur sequi expedita minima. Nam labore voluptates vitae quia iusto suscipit sequi reiciendis blanditiis necessitatibus! Architecto magni eveniet laudantium eius aspernatur porro sapiente repudiandae eligendi distinctio. Repellendus excepturi alias expedita nostrum.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia fugiat tempore sequi quaerat earum facilis architecto culpa omnis maiores velit dicta, voluptates delectus vitae impedit explicabo iusto sapiente id possimus minima ea ab officia. Nobis fugiat ullam similique modi suscipit eaque nihil dignissimos sunt quos, ab illum quia enim earum exercitationem hic laborum. Mollitia, voluptatum aperiam. Laborum nisi accusamus accusantium!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id commodi necessitatibus quaerat earum cum quisquam labore ducimus dolorem fugiat? Sint.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>Made during G48 Arts&Robots 2020</p>
+        </div>
+    </footer>
 
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
