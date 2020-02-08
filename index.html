@@ -32,10 +32,10 @@
                         <a class="nav-link" href="#">Home</a>
                     </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">How this works</a>
+              <a class="nav-link" href="#how">How this works</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -49,7 +49,7 @@
         <div class="row">
           <div class="col-md-6 align-self-center">
             <h1 class="display-3 font-weight-bold">AlcoJon</h1>
-            <h2 class="lead header_text">
+            <h2 class="lead header_text text-muted">
               AlcoJon is a prototype being made during Garage48 Arts&Robots 2020 Makeathon
             </h2>
           </div>
@@ -83,7 +83,7 @@
             </div>
           </div>
         </div>
-        <div class="solution">
+        <div class="solution" id="about">
             <div class="row my-4">
                 <div class="col-sm-12 col-md-10 mb-4">
                     <h2 class="my-4">What is AlcoJon?</h2>
@@ -94,11 +94,25 @@
                     <p class="text-justify">Through this voluntary check we shift the focus of a human brain’s rewarding system into a positive flow of self-awareness or “treat yourself good” attitude. With a software add-on (eg Native Web App) a person can track total consumption patterns and based on this analysis set up harm reduction goals. Fulfillment of these goals can be exchanged for a discount voucher of an alternative type of entertainment.</p>
                 </div>
             </div>
-            <div class="row how">
+            <div class="row how" id="how">
                 <div class="col-sm-12 col-md-8"><h2>How AlcoJon works?</h2>
                 <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia totam ad laboriosam fugiat quasi distinctio dicta quibusdam minima quisquam doloribus quas in beatae odio at magni, necessitatibus recusandae vitae pariatur?</p></div>
             </div>
-            <div class="row step">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="kit-tab" data-toggle="tab" href="#kit" role="tab" aria-controls="home" aria-selected="true">Kit</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="app-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Mobile app</a>
+  </li>
+</ul>
+                </div>
+                
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="kit" role="tabpanel" aria-labelledby="kit-tab">
+    <div class="row step">
                 <div class="col-sm-12 col-md-6">
                     <h3>Step 1: User input</h3>
                     <p>Person enters his age, weight, height and gender manually. </p>
@@ -148,6 +162,56 @@ concentration (BAC). A display shows your estimated BAC on a display</p>
                 </div>
                 
             </div>
+  </div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+      <div class="row step">
+                
+                <div class="col-sm-12 col-md-6">
+                    <h3>Step 1: You download the app to your phone (QR/online link)</h3>
+                    <p>You can choose one of the body organs to display as a hologram in the creative part of the kit. So you click on a button choosing the body organ - brain/heart/liver - a hologram appears showing you the organ with highlighted parts affected by alcohol consumption.</p>
+                    
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="https://picsum.photos/500/250" alt="random image">
+                </div>
+                
+            </div>
+    <div class="row step">
+                
+                <div class="col-sm-12 col-md-6">
+                    <h3>Step 2: In the app you can:</h3>
+                    <ul>
+                        <li>sync data from a know-how kit breathalyzer</li>
+                        <li>manually add other consumed drinks</li>
+                        <li>track budget</li>
+                        <li>set up goals</li>
+                    </ul>
+                    
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="https://picsum.photos/500/250" alt="random image">
+                </div>
+                
+            </div>
+
+            <div class="row step">
+                
+                <div class="col-sm-12 col-md-6">
+                    <h3>Step 3: Set up goals</h3>
+                    <p>If you set up goals, then you automatically participate in the reward system giving you discount vouchers to alternative entertainment services</p>
+                    
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="https://picsum.photos/500/250" alt="random image">
+                </div>
+                
+            </div>
+        
+  </div>
+  
+</div>
+            </div>
+            
             
             
         </div>
