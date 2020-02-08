@@ -32,13 +32,13 @@
                         <a class="nav-link" href="#">Home</a>
                     </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link aboutLink" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#how">How this works</a>
+              <a class="nav-link howLink" href="#how">How this works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link contactLink" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -411,6 +411,30 @@ entertainment</li>
       integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"
     ></script>
+    <script type="module">
+      import jump from "./node_modules/jump.js/dist/jump.module.js";
+      let aboutLink = document.querySelector('.aboutLink');
+      let howLink = document.querySelector('.howLink');
+      let contactLink = document.querySelector('.contactLink');
+
+      aboutLink.addEventListener('click', ()=>{
+        jump('#about', {
+          duration: 2000, 
+          offset: -100
+        });
+      });
+      howLink.addEventListener('click', ()=>{
+        jump('#how', {
+          offset: -100
+        });
+      });
+      contactLink.addEventListener('click', ()=>{
+        jump('#contact', {
+          offset: -100, 
+          duration: 2000
+        });
+      });
+    </script>
     <script src="app.js"></script>
   </body>
 </html>
