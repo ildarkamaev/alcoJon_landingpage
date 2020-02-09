@@ -1,13 +1,3 @@
-// import jump from "jump.js";
-let aboutLink = document.querySelector('.aboutLink');
-let howLink = document.querySelector('.howLink');
-let contactLink = document.querySelector('.contactLink');
-
-aboutLink.addEventListener('click', ()=>{
-    jump('#about');
-})
-
-
 window.sr = ScrollReveal();
 
 sr.reveal(".navbar", {
@@ -30,6 +20,12 @@ sr.reveal(".jumbo-right", {
 sr.reveal(".intro-header", {
   duration: 2000,
   //   delay: 1500,
+  origin: "bottom"
+});
+
+sr.reveal(".intro-lead", {
+  duration: 2000,
+  delay: 500,
   origin: "bottom"
 });
 
