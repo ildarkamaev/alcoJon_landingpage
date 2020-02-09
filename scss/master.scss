@@ -33,14 +33,18 @@ img{
 
 .intro{
     // height: 80vh;
-    display: flex;
+    // display: flex;
     margin: 10rem 0;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    h3{
-        margin-top: 4rem;
-    }
+    // flex-direction: row;
+    // align-items: center;
+    // justify-content: center;
+    // h3{
+    //     margin-top: 4rem;
+    // }
+}
+
+.features{
+    margin-top: 4rem;
 }
 
 .solution{
@@ -71,7 +75,7 @@ img{
 }
 
 .userbase{
-    margin: 15rem 0;
+    margin: 10rem 0;
 }
 
 
@@ -85,4 +89,12 @@ textarea{
 
 footer{
     margin-top: 5rem;
+}
+
+.partner_logo{
+    height: 7.4rem;
+    img{
+        width: 100%;
+        height: auto;
+    }
 }
