@@ -47,7 +47,7 @@ img {
   margin-top: 10rem;
   margin-bottom: 4rem; }
 
-.step {
+.step, .appStep {
   margin: 5rem 0;
   display: -webkit-box;
   display: -ms-flexbox;

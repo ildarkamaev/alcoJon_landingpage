@@ -78,11 +78,11 @@ sr.reveal(".how-lead", {
   origin: "bottom"
 });
 
-sr.reveal(".tabs", {
-  duration: 2000,
-  delay: 1000,
-  origin: "bottom"
-});
+// sr.reveal(".tabs", {
+//   duration: 2000,
+//   delay: 1000,
+//   origin: "bottom"
+// });
 
 sr.reveal(".step", {
   duration: 2000,
