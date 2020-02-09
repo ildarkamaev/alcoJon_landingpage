@@ -29,26 +29,34 @@ sr.reveal(".intro-lead", {
   origin: "bottom"
 });
 
-sr.reveal(".intro-section1", {
-  duration: 2000,
-  delay: 500,
-  origin: "bottom"
-});
-
-sr.reveal(".intro-section2", {
+sr.reveal(".features", {
   duration: 2000,
   delay: 1000,
   origin: "bottom"
 });
 
-sr.reveal(".intro-section3", {
+
+sr.reveal(".intro-section1", {
   duration: 2000,
   delay: 1500,
   origin: "bottom"
 });
 
-sr.reveal(".solution-heading", {
+sr.reveal(".intro-section2", {
   duration: 2000,
+  delay: 2000,
+  origin: "bottom"
+});
+
+sr.reveal(".intro-section3", {
+  duration: 2000,
+  delay: 2500,
+  origin: "bottom"
+});
+
+sr.reveal(".intro-section4", {
+  duration: 2000,
+  delay: 3000,
   origin: "bottom"
 });
 
@@ -74,15 +82,15 @@ sr.reveal(".how-lead", {
   origin: "bottom"
 });
 
-sr.reveal(".tabs", {
-  duration: 2000,
-  delay: 1000,
-  origin: "bottom"
-});
+// sr.reveal(".tabs", {
+//   duration: 2000,
+//   delay: 1000,
+//   origin: "bottom"
+// });
 
 sr.reveal(".step", {
   duration: 2000,
-  delay: 500,
+  delay: 700,
   origin: "bottom"
 });
 
@@ -91,9 +99,20 @@ sr.reveal(".who-heading", {
   origin: "bottom"
 });
 
-sr.reveal(".who-text", {
+sr.reveal(".who-section1", {
   duration: 2000,
   delay: 500,
+  origin: "bottom"
+});
+
+sr.reveal(".who-section2", {
+  duration: 2000,
+  delay: 700,
+  origin: "bottom"
+});
+sr.reveal(".who-section3", {
+  duration: 2000,
+  delay: 1000,
   origin: "bottom"
 });
 
@@ -114,12 +133,6 @@ sr.reveal(".partners-heading", {
   origin: "bottom"
 });
 
-sr.reveal(".card1", {
-  duration: 2000,
-  delay: 500,
-  origin: "bottom"
-});
-
 sr.reveal(".card2", {
   duration: 2000,
   delay: 1000,
@@ -129,6 +142,11 @@ sr.reveal(".card2", {
 sr.reveal(".card3", {
   duration: 2000,
   delay: 1500,
+  origin: "bottom"
+});
+
+sr.reveal(".further", {
+  duration: 2000,
   origin: "bottom"
 });
 
@@ -145,6 +163,7 @@ sr.reveal(".who-list", {
 
 sr.reveal(".accordion1", {
   duration: 2000,
+  delay: 500,
   origin: "bottom"
 });
 
@@ -165,3 +184,4 @@ sr.reveal(".footer", {
   delay: 2000,
   origin: "bottom"
 });
+
