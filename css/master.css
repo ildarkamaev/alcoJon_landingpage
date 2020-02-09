@@ -35,7 +35,7 @@ img {
   margin-top: 10rem;
   margin-bottom: 4rem; }
 
-.step, .appStep {
+.step {
   margin: 5rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50,6 +50,10 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+.step img {
+  height: 30rem;
+  width: auto; }
 
 .faq {
   margin: 10rem 0; }
