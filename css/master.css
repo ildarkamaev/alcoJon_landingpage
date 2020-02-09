@@ -63,6 +63,12 @@ img {
       -ms-flex-pack: center;
           justify-content: center; }
 
+.faq {
+  margin: 10rem 0; }
+
+.partners {
+  margin: 10rem 0; }
+
 .contact {
   height: 60wh; }
 

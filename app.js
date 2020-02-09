@@ -78,11 +78,11 @@ sr.reveal(".how-lead", {
   origin: "bottom"
 });
 
-// sr.reveal(".tabs", {
-//   duration: 2000,
-//   delay: 1000,
-//   origin: "bottom"
-// });
+sr.reveal(".tabs", {
+  duration: 2000,
+  delay: 1000,
+  origin: "bottom"
+});
 
 sr.reveal(".step", {
   duration: 2000,
@@ -113,6 +113,29 @@ sr.reveal(".who-list", {
   origin: "bottom"
 });
 
+sr.reveal(".partners-heading", {
+  duration: 2000,
+  origin: "bottom"
+});
+
+sr.reveal(".card1", {
+  duration: 2000,
+  delay: 500,
+  origin: "bottom"
+});
+
+sr.reveal(".card2", {
+  duration: 2000,
+  delay: 1000,
+  origin: "bottom"
+});
+
+sr.reveal(".card3", {
+  duration: 2000,
+  delay: 1500,
+  origin: "bottom"
+});
+
 sr.reveal(".faq-heading", {
   duration: 2000,
   origin: "bottom"
@@ -131,13 +154,13 @@ sr.reveal(".accordion1", {
 
 sr.reveal(".contact-heading", {
   duration: 2000,
-  delay: 1000,
+  // delay: 1000,
   origin: "bottom"
 });
 
 sr.reveal(".contact-form", {
   duration: 2000,
-  delay: 1500,
+  // delay: 1500,
   origin: "bottom"
 });
 
